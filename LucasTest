@@ -1,4 +1,9 @@
 print("Please enter a number between 1 and 20:")
 number = int(input())
-pip install -r requirements.txt
-python app.py
+
+studentResults = [['Name','Hw1','Hw2','Hw3','Hw4'],
+                   ['Steven',8,7,9,4],['Lauren',7,9,8,6]]
+
+print(studentResults[1][0])
+print(studentResults[2][4])
+
