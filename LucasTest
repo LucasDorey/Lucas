@@ -1,2 +1,4 @@
 print("Please enter a number between 1 and 20:")
 number = int(input())
+pip install -r requirements.txt
+python app.py
